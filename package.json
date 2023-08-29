@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "sistemadeordenacaocssresilia",
+  "version": "1.0.0",
+  "description": "Trabalho individual Resilia ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thzzao/SistemaDeOrdenacaoCSSResilia.git"
+  },
+  "author": "Thzzao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thzzao/SistemaDeOrdenacaoCSSResilia/issues"
+  },
+  "homepage": "https://github.com/Thzzao/SistemaDeOrdenacaoCSSResilia#readme",
+  "dependencies": {
+    "readline": "^1.3.0",
+    "readline-sync": "^1.4.10"
+  }
+}
