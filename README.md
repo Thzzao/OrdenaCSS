@@ -45,7 +45,7 @@ padding
 
 Depois de instalado o NodeJS em sua máquina:
 
-1. Clone o repositório usando a `URL` do projeto ou a chave `SSH` no terminal:
+1. Clone o repositório usando a `URL` do projeto **OU** a chave `SSH` no terminal:
 
 ```bash
 URL: git clone https://github.com/Thzzao/OrdenaCSSResilia.git
@@ -53,13 +53,19 @@ URL: git clone https://github.com/Thzzao/OrdenaCSSResilia.git
 SSH: git clone git@github.com:Thzzao/OrdenaCSSResilia.git
 ```
 
-2. Depois entre na pasta `****scr****`, usando o comando:
+2. Depois entre na pasta `OrdenaCSSResilia` usando o comando:
 
 ```bash
-cd >>PASTA<<
+cd OrdenaCSSResilia
 ```
 
-3. Depois de chegar com o terminal na pasta correspondente, use o sequinte comando para instalar o `Readline-sync`:
+3. Depois de chegar com o terminal na pasta correspondente, use o sequinte comando para instalar as dependências necessárias da ferramenta (no caso o `Readline-sync`):
+
+```bash
+npm install
+```
+
+**OU**
 
 ```bash
 npm install readline-sync
