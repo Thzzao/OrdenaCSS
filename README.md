@@ -76,8 +76,9 @@ npm install readline-sync
 ```bash
 npm start
 ```
-
 <!-- GIF -->
+![GIF instalação](https://github.com/Thzzao/OrdenaCSSResilia/assets/95200381/200e6dd0-017b-41dc-afef-d118523465d5)
+
 
 ## Contribuição 💡
 
