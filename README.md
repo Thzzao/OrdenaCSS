@@ -90,6 +90,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 ## Referências 🔍
 
 [Documentação do NodeJS](https://nodejs.org/en/docs) 
+
 Sistema desenvolvido usando a versão 18.17.1 LTS do NodeJS.
 
 [Documentação do Readline-sync](https://www.npmjs.com/package/readline-sync)
