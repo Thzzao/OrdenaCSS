@@ -59,7 +59,7 @@ SSH: git clone git@github.com:Thzzao/OrdenaCSSResilia.git
 cd OrdenaCSSResilia
 ```
 
-3. Depois de chegar com o terminal na pasta correspondente, use o sequinte comando para instalar as dependências necessárias da ferramenta (no caso o `Readline-sync`):
+3. Depois de chegar com o terminal na pasta correspondente, use o comando para instalar as dependências necessárias da ferramenta (no caso o `Readline-sync`):
 
 ```bash
 npm install
@@ -71,7 +71,7 @@ npm install
 npm install readline-sync
 ```
 
-4. Depois de feita a instalação, para `iniciar o sistema` digite o sequinte comando no terminal:
+4. Depois de feita a instalação, para `iniciar o sistema` digite no terminal:
 
 ```bash
 npm start
