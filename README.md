@@ -8,7 +8,7 @@ Sistema desenvolvido para organizar em ordem alfabética as propriedades do CSS.
 
 ## Requisitos ⚠️
 
-Para que o sistema funcione perfeitamente, tenha o **[NodeJS](https://nodejs.org/en)** instalado em seu computador.
+Para que o sistema funcione perfeitamente tenha o **[NodeJS](https://nodejs.org/en)** instalado em seu computador.
 
 ## Funcionalidades 📚
 
@@ -40,6 +40,7 @@ padding
 ```
 
 **`OBS.:`** Não esquecer de digitar o 'sair' para o sistema retornar a lista ordenada.
+
 **`OBS 2.:`** Caso o usuário entre com um ***espaço vazio*** ou um ***número***, o sistema não vai contabilizar. Ele remove os números e os espaçamentos em branco da lista de ordenação. 
 
 ## Instalação 🔧
