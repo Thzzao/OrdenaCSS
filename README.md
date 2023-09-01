@@ -41,7 +41,34 @@ padding
 
 **`OBS.:`** Não esquecer de digitar o 'sair' para o sistema retornar a lista ordenada.
 
-**`OBS 2.:`** Caso o usuário entre com um ***espaço vazio*** ou um ***número***, o sistema não vai contabilizar. Ele remove os números e os espaçamentos em branco da lista de ordenação. 
+- Tratamento de erros
+
+Caso o usuário não digite nada ou digite um número na entrada de dados, o sistema acusa a mensagem de erro `Entrada inválida` e não insere a respectiva entrada na lista como mostra o exemplo:
+
+**_ENTRADA_**
+
+```bash
+Digite pelo menos 2 propriedades do CSS.
+Para ordenar digite 'sair'
+
+Digite a propriedade: font-size
+Digite a propriedade:
+Entrada inválida
+Digite a propriedade: padding
+Digite a propriedade: 123456
+Entrada inválida
+Digite a propriedade: animation-name
+Digite a propriedade: sair
+```
+
+**_SAÍDA_**
+
+```bash
+LISTA DOS ELEMENTOS ORDENADOS:
+animation-name
+font-size
+padding
+```
 
 ## Instalação 🔧
 
@@ -89,9 +116,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 
 ## Referências 🔍
 
-[Documentação do NodeJS](https://nodejs.org/en/docs) 
-
-Sistema desenvolvido usando a versão 18.17.1 LTS do NodeJS.
+[Documentação do NodeJS](https://nodejs.org/en/docs) - Sistema desenvolvido usando a versão 18.17.1 LTS do NodeJS.
 
 [Documentação do Readline-sync](https://www.npmjs.com/package/readline-sync)
 
