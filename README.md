@@ -4,11 +4,11 @@ Projeto individual do curso de Desenvolvedor Full Stack Resilia. Criação de um
 
 ## Apresentação 🚀
 
-Sistema desenvolvido para organizar em ordem alfabética as propriedades do CSS. Para esse projeto foi utilizado o [NodeJS](https://nodejs.org/en) juntamente com o [VSCode](https://code.visualstudio.com/) para criar a lógica e a biblioteca [Readline-Sync](https://www.npmjs.com/package/readline-sync) que permite que sejam informados dados ao sistema atráves da linha de comando.
+Sistema desenvolvido para organizar em ordem alfabética as propriedades do CSS. Para esse projeto foi utilizado o [NodeJS](https://nodejs.org/en) (versão 18.17.1) juntamente com o [VSCode](https://code.visualstudio.com/) para criar a lógica e a biblioteca [Readline-Sync](https://www.npmjs.com/package/readline-sync) que permite que sejam informados dados ao sistema atráves da linha de comando.
 
 ## Requisitos ⚠️
 
-Para que o sistema funcione perfeitamente, tenha o **[NodeJS](https://nodejs.org/en)** instalado em seu computador.
+Para que o sistema funcione perfeitamente tenha o **[NodeJS](https://nodejs.org/en)** instalado em seu computador.
 
 ## Funcionalidades 📚
 
@@ -40,6 +40,8 @@ padding
 ```
 
 **`OBS.:`** Não esquecer de digitar o 'sair' para o sistema retornar a lista ordenada.
+
+**`OBS 2.:`** Caso o usuário entre com um ***espaço vazio*** ou um ***número***, o sistema não vai contabilizar. Ele remove os números e os espaçamentos em branco da lista de ordenação. 
 
 ## Instalação 🔧
 
@@ -87,7 +89,9 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 
 ## Referências 🔍
 
-[Documentação do NodeJS](https://nodejs.org/en/docs)
+[Documentação do NodeJS](https://nodejs.org/en/docs) 
+
+Sistema desenvolvido usando a versão 18.17.1 LTS do NodeJS.
 
 [Documentação do Readline-sync](https://www.npmjs.com/package/readline-sync)
 
