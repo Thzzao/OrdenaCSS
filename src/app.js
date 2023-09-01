@@ -8,11 +8,11 @@ console.log("Digite pelo menos 2 propriedades do CSS.\nPara ordenar digite 'sair
 const props = []
 let input
 
-//Entrada do usuário e tratamento de erros
+//Entrada do usuário e validação
 do {
     input = (rl.question('Digite a propriedade: ')).toLowerCase()
     let isValid = validaNumero(input) & validaString(input)
-    //Guarda a entrada do usuário na lista
+    //Só guarda a entrada do usuário na lista se validar uma string e se não for número
     if (isValid) {
         props.push(input)
     } else {
@@ -22,10 +22,6 @@ do {
 } while (input != 'sair')
 
 
-// Chamada da função que remove os números do array 
-// removerNumeros()
-// Chamada da função que remove os espaços vazios
-// removerNulo()
 // Remove o último item da lista (a palavra 'sair')
 props.pop()
 // Ordena as palavras em ordem alfabética crescente 
@@ -37,39 +33,14 @@ props.forEach(function (element) {
 })
 
 
-
-// //Criação da função de excluir os espaços vazios 
-// function removerNulo() {
-//     var index = props.indexOf('')
-//     while (index >= 0) {
-//         props.splice(index, 1);
-//         index = props.indexOf('')
-//     }
-// }
-
-// // Criação da função que remove números
-// function removerNumeros() {
-//     let numeros = props.some((number) => {
-//         return number >= 0;
-//     })
-//     while (numeros == true) {
-//         const found = props.findIndex((number) => number >= 0)
-//         props.splice(found, 1)
-//         if (found == -1) {
-//             break
-//         }
-//     }
-// }
-
-
-
+// Criação da função de validar se não for número
 function validaNumero(input) {
     const inputInt = parseInt(input)
     return isNaN(input)
 }
 
+// Criação da função de validar se não for um espaço vazio 
 function validaString(input) {
     const str = input.trim()
     return str != ''
 }
-
