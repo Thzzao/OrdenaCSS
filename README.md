@@ -39,7 +39,7 @@ font-size
 padding
 ```
 
-**`OBS.:`** Não esquecer de digitar o 'sair' para o sistema retornar a lista ordenada.
+***OBS.:****Não esquecer de digitar o 'sair' para o sistema retornar a lista ordenada.*
 
 - Tratamento de erros
 
